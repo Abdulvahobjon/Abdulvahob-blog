@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundColor:{
         'main-bg': "#0F172A",
+        "list-item-bg":"rgba(30, 41, 59, 0.40)"
       },
       colors:{
         "blog":{
@@ -18,8 +19,10 @@ module.exports = {
       fontSize:{
         "logo-text":"15px" ,
         "26":"26px" ,
-      }
-     
+      },
+      borderRadius:{
+        "5":"20px"
+      },
     },
   },
   plugins: [],
