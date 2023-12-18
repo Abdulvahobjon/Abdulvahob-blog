@@ -19,3 +19,64 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.btn-gadiend-1 {
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(16, 185, 129, 0.2) 0%,
+    rgba(190, 242, 100, 0.2) 100%
+  );
+}
+.btn-gadiend-text-1 {
+  background: var(
+    --Gradient-Green,
+    linear-gradient(180deg, #10b981 0%, #bef264 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gadiend-2 {
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(220, 38, 38, 0.2) 0%,
+    rgba(249, 115, 22, 0.2) 100%
+  );
+}
+.btn-gadiend-text-2 {
+  background: var(
+    --Gradient-Red,
+    linear-gradient(180deg, #dc2626 0%, #f97316 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gadiend-3 {
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(124, 58, 237, 0.2) 0%,
+    rgba(96, 165, 250, 0.2) 100%
+  );
+}
+.btn-gadiend-text-3 {
+  background: var(
+    --Gradient-purple,
+    linear-gradient(180deg, #7c3aed 0%, #60a5fa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.design-animation:hover {
+  transform: translate(0, -7px);
+}
+.design-animation {
+  transition: all 0.3s;
+}
