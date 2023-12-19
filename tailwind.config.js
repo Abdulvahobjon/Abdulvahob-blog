@@ -11,6 +11,8 @@ module.exports = {
         "blog":{
           'slate-50':'#F8FAFC',
           'slate-300':'#CBD5E1',
+          'slate-800':'#1E293B',
+          'slate-400':'#9CA3AF',
         }
       },
       fontFamily:{
