@@ -80,3 +80,7 @@
 .design-animation {
   transition: all 0.3s;
 }
+.social-btn {
+  border-radius: 30px;
+  background:linear-gradient(270deg, #22d3ee 50%, #0ea5e9 100%);
+}
