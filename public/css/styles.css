@@ -459,9 +459,6 @@ video {
 .h-6{
   height: 1.5rem;
 }
-.h-72{
-  height: 18rem;
-}
 .h-8{
   height: 2rem;
 }
@@ -556,9 +553,13 @@ video {
 .p-2\.5{
   padding: 0.625rem;
 }
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-2\.5{
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
 .px-4{
   padding-left: 1rem;
@@ -584,38 +585,20 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-.px-2\.5{
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
-}
-.pb-11{
-  padding-bottom: 2.75rem;
-}
 .pb-5{
   padding-bottom: 1.25rem;
 }
-.pt-4{
-  padding-top: 1rem;
-}
-.pt-6{
-  padding-top: 1.5rem;
-}
 .pb-8{
   padding-bottom: 2rem;
+}
+.pt-4{
+  padding-top: 1rem;
 }
 .text-center{
   text-align: center;
 }
 .font-roboto{
   font-family: Roboto, sans-serif;
-}
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 .text-base{
   font-size: 1rem;
@@ -817,9 +800,13 @@ video {
   .md\:p-8{
     padding: 2rem;
   }
-  .md\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .md\:px-3{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
   .md\:py-14{
     padding-top: 3.5rem;
@@ -837,9 +824,8 @@ video {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  .md\:px-3{
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+  .md\:pb-11{
+    padding-bottom: 2.75rem;
   }
   .md\:pb-24{
     padding-bottom: 6rem;
@@ -849,9 +835,6 @@ video {
   }
   .md\:pt-6{
     padding-top: 1.5rem;
-  }
-  .md\:pb-11{
-    padding-bottom: 2.75rem;
   }
   .md\:text-left{
     text-align: left;
